@@ -4,8 +4,9 @@ class Plant:
         self._height = height
         self._age = age
         print(
-            f"Plant created: {self.name}: {self._height}cm, {self._age} days old"
-            )
+            f"Plant created: {self.name}: "
+            f"{self._height}cm, {self._age} days old"
+        )
 
     def get_height(self) -> float:
         return self._height
@@ -31,8 +32,9 @@ class Plant:
 
     def show(self) -> None:
         print(
-            f"Current state: {self.name}: {self._height}cm, {self._age} days old"
-            )
+            f"Current state: {self.name}: "
+            f"{self._height}cm, {self._age} days old"
+        )
 
 
 def main() -> None:
